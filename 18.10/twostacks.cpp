@@ -3,11 +3,10 @@
 #include <stack>
 using namespace std;
 template <class T>
-// динамическа двусторонняя очередь через два динамических стека
-// 
+//Динамическая двусторонняя очередь через два динамических стека
 class Queue {
     stack<T> l, r;
-    int size = 0; //колво элементов или stack size
+    int size = 0; //Кол-во элементов или stack size
 
     public:
     Queue() = default;
