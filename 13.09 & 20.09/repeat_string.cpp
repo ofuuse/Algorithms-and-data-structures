@@ -3,8 +3,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 class String{
     char * buffer = NULL;
     int size = 0;
